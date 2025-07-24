@@ -1,22 +1,22 @@
-.orange{
+.orange {
     color: #E95A08;
 }
 
-.noto-serif{
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.nav{
+.nav {
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
@@ -24,17 +24,30 @@
     align-items: center;
 }
 
-.nav-ul{
+.nav-ul {
     display: flex;
     justify-content: center;
 }
 
-.nav-ul li{
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+
+.list-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.nav-ul li {
     list-style-type: none;
     margin-left: 48px;
 }
 
-.cart{
+.cart {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,13 +56,20 @@
     margin-right: 0px;
 }
 
-.cart li{
-    margin-left: 0px;
+.cart a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.cart li {
+    margin-left: 10px;
 }
 
 
 /* banner section */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -57,16 +77,100 @@
     margin: 0 auto;
 }
 
-.banner .content-title{
+.banner .content-title {
     font-size: 4rem;
     margin-bottom: 0px;
 }
 
-.banner .content-title h5{
+.banner .content-title h5 {
     margin-bottom: 0px;
 }
 
-.banner .content-description{
+.banner .content-description {
     font-size: 1.5rem;
     margin-top: 0px;
+}
+
+.our-plants .title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.plants-description{
+    text-align: center;
+    font-size: 1.3rem;
+    max-width: 888px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.flower-info{
+    justify-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.bttn{
+    width: 100%;
+    background-color: #E95A08;
+    color: white;
+    padding: 26px 50px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+    .nav {
+        max-width: 361px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .list-item {
+        display: none;
+    }
+
+    .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    max-width: 393px;
+    margin: 0 auto;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 171px;
+    margin: 0 auto;
+}
+
+.plants-description{
+    text-align: center;
+    font-size: 1.3rem;
+    max-width: 336px;
+    margin: 0 auto;
+}
 }
