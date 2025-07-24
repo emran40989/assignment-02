@@ -1,7 +1,10 @@
+.orange{
+    color: #E95A08;
+}
+
 .noto-serif{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -10,7 +13,6 @@
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -24,7 +26,7 @@
 
 .nav-ul{
     display: flex;
-    justify-content: ;
+    justify-content: center;
 }
 
 .nav-ul li{
@@ -43,4 +45,28 @@
 
 .cart li{
     margin-left: 0px;
+}
+
+
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.banner .content-title{
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.banner .content-title h5{
+    margin-bottom: 0px;
+}
+
+.banner .content-description{
+    font-size: 1.5rem;
+    margin-top: 0px;
 }
