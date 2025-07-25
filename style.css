@@ -192,101 +192,6 @@
 }
 
 
-/* waste parts */
-/* .bloom{
-    grid-area: bloom;
-    background-image: url(assets/deal-bloom.png);
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    height: 200px;
-}
-
-.deals-image a{
-    color: white;
-}
-
-.ana{
-    grid-area: ana;
-    background-image: url(assets/deal-ana.png);
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    height: 200px;
-}
-
-
-.zabo{
-    grid-area: zabo;
-    background-image: url(assets/deal-zabo.png);
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    height: 420px;
-}
-
-.deals-image{
-    display: grid;
-    gap: 20px;
-    grid-template-areas: 
-    "bloom      zabo        zabo        zabo"
-    "ana        zabo        zabo        zabo"
-    ;
-} */
-
-/* .deals-image{
-    display: grid;
-    gap: 20px;
-    /* grid-template-columns: 1fr 3fr; */
-    /* grid-template-rows: auto auto; */
-}
-
-/* .bloom, .ana, .zabo{
-    position: relative;
-} */
-/* 
-.bloom-img img, .ana-img img, .zabo-img img{
-    border-radius: 15px;
-    display: block;
-    width: 100%;
-    height: auto;
-} */
-
-/* .bloom-text, .ana-text, .zabo-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
-    text-align: center;
-    display: flex;
-    font-size: 1.3rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     background: rgba(0, 0, 0, 0.3);
-     border-radius: 15px;
-} */
-
-/* .bloom-text a, .ana-text a, .zabo-text a{
-    color: white;
-    font-size: 1rem;
-} */ 
-
-.bloom-img img, .ana-img img, .zabo-img img{
-    border-radius: 15px;
-} 
-
-.bloom-text, .ana-text, .zabo-text{
-    position: absolute;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
 
 @media screen and (max-width: 576px) {
     .nav {
@@ -347,14 +252,4 @@
         text-align: left;
     }
 
-    .deals-description{
-    max-width: 336px;
-    margin: 0 auto;
-}
-
-.deals-image{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(1, 1fr);
-}
 }
