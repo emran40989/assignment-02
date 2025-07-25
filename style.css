@@ -440,4 +440,40 @@
     .badge{
         display: none;
     }
+
+    .deals-image{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+        height: auto;
+        width: 361px;
+    }
+
+    .right-img{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content3 h5{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .bloom-img img, .ana-img img, .zabo-img img{
+        width: 361px;
+    }
+
+
 }
