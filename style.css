@@ -268,6 +268,19 @@
     flex-direction: column;
 }
 
+.badge{
+    position: relative;
+    margin-top: 150px;
+}
+
+.trusted-badge{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 48%;
+    transform: translate(-50%, -50%);
+
+}
 
 
 @media screen and (max-width: 576px) {
@@ -343,7 +356,7 @@
 }
 
     .subscribe bttn{
-        width: 103px;
+        max-width: 100px;
     }
 
     .footer{
@@ -354,5 +367,13 @@
     }
     .footer-4{
         margin-bottom: 150px;
+    }
+
+    .join{
+     width: 100%;
+    }
+
+    .badge{
+        display: none;
     }
 }
