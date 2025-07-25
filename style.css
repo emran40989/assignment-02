@@ -282,6 +282,70 @@
 
 }
 
+.deals-image{
+    max-width: 1140px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 423px;
+}
+
+.left-img{
+    width: 367px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloom-img{
+    position: relative;
+}
+
+.img img{
+    border-radius: 15px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h5{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content a{
+    color: white;
+    text-align: center;
+}
+
+.bloom-img{
+    margin-bottom: 25px;
+}
+
+.ana-img{
+    position: relative;
+}
+
+.zabo-img{
+    position: relative;
+}
+
+.content3 h5{
+    font-size: 2.2rem;
+}
+
+.content3 a{
+    font-size: 1.3rem;
+}
 
 @media screen and (max-width: 576px) {
     .nav {
