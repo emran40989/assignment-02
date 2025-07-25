@@ -329,6 +329,11 @@
         text-align: left;
     }
 
+    .subscribe, .title{
+        max-width: 393px;
+        margin: 0 auto;
+    }
+
     .subscribe input{
     width: 218px;
     height: 50px;
@@ -345,6 +350,9 @@
         display: flex;
         flex-direction: column;
         margin-left: 10px;
+        margin-bottom: 150px;
+    }
+    .footer-4{
         margin-bottom: 150px;
     }
 }
